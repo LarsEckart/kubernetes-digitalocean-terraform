@@ -30,7 +30,7 @@ metadata:
     version: v1
     kubernetes.io/cluster-service: "true"
 spec:
-  replicas: 25
+  replicas: 6
   selector:
     k8s-app: microbot
     version: v1
